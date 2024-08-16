@@ -1,0 +1,89 @@
+/* BlogPage.css */
+.blog-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex: 1;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .header-nav a {
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .blog-post {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .blog-post h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .blog-post p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    margin-top: 10px;
+    text-align: center; /* Center the video */
+  }
+  
+  .video-container video {
+    border-radius: 8px;
+    width: 80%; /* Adjust the width */
+    max-width: 600px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

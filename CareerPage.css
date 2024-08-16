@@ -1,0 +1,42 @@
+/* CareerPage.css */
+
+.career-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .company-overview, .open-positions, .company-culture, .how-to-apply {
+    margin-bottom: 40px;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .job-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .job-card p {
+    margin: 10px 0;
+  }
+  
+  .apply-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .apply-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,54 @@
+.navbar-logo {
+  height: 80px; /* Increased size for better visibility */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  background-color: #000000; /* Light background color */
+  padding: 10px 20px; /* Padding for the navbar */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Pushes the brand name to the left */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin: 0; /* Remove default margin */
+}
+
+.nav-item {
+  margin: 0 15px; /* Space between nav items */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* Text color */
+  padding: 10px; /* Padding around links */
+  font-size: 1rem; /* Font size for links */
+}
+
+.nav-link:hover {
+  background-color: #000000; /* Hover background color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2811, 11, 11, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Dropdown hover effect */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}

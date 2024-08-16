@@ -1,0 +1,148 @@
+/* Homepage.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically center */
+  padding: 20px;
+  background-color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+}
+
+.logo-image {
+  width: 30px; /* Adjust size of the logo */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-orange {
+  color: orange;
+}
+
+.logo-white {
+  color: rgb(1, 1, 1);
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url('https://marvel-b1-cdn.bc0a.com/f00000000270514/s25180.pcdn.co/wp-content/uploads/2015/09/iStock-67243821.jpg') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content h1 {
+  margin: 0;
+}
+
+.highlight {
+  color: orange;
+}
+
+.social-media-links {
+  display: none; /* Hide original social media links section */
+}
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  background-color: orange; /* Change to orange background */
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px; /* Fixed width for the sidebar */
+}
+
+.sidebar-link {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  transition: width 0.3s; /* Smooth transition */
+  width: 50px; /* Small width */
+  border-radius: 5px;
+}
+
+.sidebar-link:hover {
+  width: 150px; /* Expand width on hover */
+}
+
+.sidebar-link.facebook {
+  background-color: #3b5998;
+}
+
+.sidebar-link.linkedin {
+  background-color: #0077b5;
+}
+
+.sidebar-link.instagram {
+  background-color: #e4405f;
+}
+
+.sidebar-link.twitter {
+  background-color: #1da1f2;
+}
+
+.impact-stats {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.impact-stats h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+}
+
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat {
+  margin: 20px;
+  text-align: center;
+}
+
+.stat h3 {
+  margin: 0;
+  font-size: 36px;
+  color: #ff6600;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
